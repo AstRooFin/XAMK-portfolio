@@ -1,0 +1,404 @@
+@media screen and (max-width: 1440px){
+
+    .main-title{
+        h2{
+            font-size: 5rem;
+        }
+    }
+    
+    header{
+        padding: 0 !important;
+    }
+
+    .header{
+        ul{
+            width: 90%;
+            top: 0;
+            li{
+                font-size: 1.9rem;
+            }
+        }
+
+        .name{
+            font-size: 4rem !important;
+        }
+    }
+    
+    .header-info{
+        padding: 0 !important;
+        grid-template-columns: 1fr !important;
+
+        .right-header{
+            grid-row: 1;
+            width: 90%;
+            margin: 1.1rem auto;
+            padding: 0 !important;
+            text-align: center;
+
+            .text{
+                font-size: 2.2rem !important;
+            }
+
+            .cv-download{
+                height: 100% !important;
+                width: 80% !important;
+                margin: 4rem 0 !important;
+            }
+
+            a{
+                font-size: 1.5rem !important;
+            }
+        }
+        
+        .left-header .image{
+            margin: 0 auto 7rem auto !important;
+            width: 100%;
+            grid-row: 2;
+        }
+    }
+
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .portfolio{
+        h2{
+            font-size: 3.5rem !important;
+        }
+    }
+
+    .portfolio-text{
+        width: 90%;
+        margin: 2rem auto !important;
+        font-size: 2rem !important;
+    }
+
+    .portfolio-container{
+        grid-template-columns: 1fr !important;
+        width: 95%;
+        padding: 0 1rem !important;
+        margin-bottom: 6rem;
+        align-items: center;
+        
+        .project{
+            margin: 0 10% !important;
+            justify-content: center;
+
+            .game-name{
+                font-size: 1.6rem !important;
+            }
+
+            .game-genre{
+                font-size: 1.4rem !important;
+            }
+
+            p{
+                font-size: 1.4rem !important;
+            }
+
+            .my-work{
+                font-size: 1.4rem !important;
+            }
+
+            .icon{
+                margin-bottom: 1.5rem !important;
+                font-size: 2.7em !important;
+            }
+        }
+    }
+
+    .about{
+        h4{
+            font-size: 2rem;
+            padding: 3.5rem 0;
+        }
+
+        .about-me{
+            p{
+                font-size: 1.7rem !important;
+            }
+        }
+
+        .main-timeline-title{
+            
+            &::before{
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: 0;
+                width: 40%;
+                height: 1px;
+                background-color: var(--color-white);
+                transform: translateX(-50%);
+            }
+        }
+
+        .timeline-title-main{
+            
+            &::before{
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: 0;
+                width: 40%;
+                height: 1px;
+                background-color: var(--color-white);
+                transform: translateX(-50%);
+            }
+        }
+
+        .cv-download{
+            height: 100% !important;
+            width: 80% !important;
+            padding: 1%;
+            font-size: 1.5rem;
+        }
+    }
+
+    .timeline{
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem;
+
+        .timeline-time{
+            font-size: 1rem !important;
+        }
+        
+        .timeline-item{
+            width: 70% !important;
+            margin: 1rem auto;
+
+            h5{
+                font-size: 1.4rem;
+            }
+
+            p{
+                font-size: 1.3rem;
+            }
+
+            span{
+                font-size: 1.2rem !important;
+            }
+        }
+    }
+
+    .contact{
+        grid-template-columns: 1fr !important;
+
+        h2{
+            font-size: 4rem;
+        }
+
+        .left-contact{
+            width: 90% !important;
+            grid-row: 1 !important;
+            padding-bottom: .5rem;
+            margin: 2rem 5% !important;
+            left: 0;
+
+            .icon{
+                text-align: center;
+            }
+
+            p{
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+
+        .right-contact{
+            align-items: center;
+            width: 90% !important;
+            grid-row: 2;
+            margin: 0 7% !important;
+            left: 0;
+
+            .input-text{
+                font-size: 1rem;
+            }
+
+            input{
+                height: 75px !important;
+            }
+
+            textarea{
+                height: 200px !important;
+            }
+
+            .top-input{
+                flex-direction: column;
+            }
+
+            .top-input :last-child{
+                margin-left: 0 !important;
+                margin-top: 1.5rem;
+            }
+        }
+
+        .submit-btn{
+            height: 100% !important;
+            width: 80% !important;
+            font-size: 1.5rem !important; 
+            margin: auto;
+        }
+
+        
+    }
+
+    .contact-icons{
+        margin: 2rem auto 4.5rem auto;
+
+        a{
+            width: 55px;
+            height: 55px;
+
+            i{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    footer{
+        margin-bottom: 6rem;
+    }
+
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 10%;
+        background-color: var(--color-black);
+
+        .active-btn{
+            background-color: var(--accent-3) !important;
+        }
+    
+        .control{
+            margin: .5rem 1rem !important;
+            width: 60px;
+            height: 60px;
+
+            i{
+                font-size: 1.4rem;
+            }
+
+            &:hover{
+                background-color: var(--color-black);
+
+                i{
+                    color: var(--accent-3);
+                }
+            }
+        }  
+    }
+}
+
+@media screen and (min-width: 1921px){
+
+    .main-title{
+        h2{
+            font-size: 5rem;
+        }
+    }
+    
+    .header{
+        li{
+            font-size: 2.5rem;
+        }
+
+        .name{
+            font-size: 4rem !important;
+        }
+    }
+    
+    .right-header{
+        p{
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .portfolio-text{
+        font-size: 2.5rem !important;
+    }
+
+    .portfolio-container{
+        grid-template-columns: repeat(3, 1fr) !important;
+
+        .project{
+            width: 85% !important;
+
+            p{
+                font-size: 1.5rem !important;
+            }
+
+            .icon{
+                margin-bottom: 1.5rem !important;
+                font-size: 3.8rem !important;
+            }
+        }
+    }
+
+    .timeline-item{
+        width: 90% !important;
+
+        h5{
+            font-size: 2.1rem !important;
+        }
+
+        p{
+            font-size: 1.5rem !important;
+        }
+
+        span{
+            font-size: 1.7rem !important;
+        }
+    }
+
+    .contact{
+
+        .left-contact{
+            
+            i{
+                font-size: 2rem !important;
+            }
+            
+            p{
+                font-size: 2rem !important;
+            }
+        }
+        .right-contact{
+            font-size: 1.5rem;
+        }
+        
+        .submit-btn{
+            height: 45% !important;
+            width: 20% !important;
+            font-size: 1.5rem;
+        }
+    }
+
+    .contact-icons{
+        margin-top: 3rem;
+
+        a{
+            width: 90px;
+            height: 90px;
+
+            i{
+                font-size: 2.7rem;
+            }
+        }
+    }
+
+    .control{
+        width: 70px !important;
+        height: 70px !important;
+
+        i{
+            font-size: 1.8rem !important;
+        }
+    }
+}
